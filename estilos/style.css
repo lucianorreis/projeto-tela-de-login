@@ -1,3 +1,4 @@
+/* Configurações globais - Mobile First */
 @charset "UTF-8";
 :root {
     --lilas: #5f2c82;
@@ -23,7 +24,7 @@ main {
     width: 100vw;
 }
 
-section#login {
+section#login { /* Painel de Login */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -32,7 +33,7 @@ section#login {
 
     width: 250px;
     height: 500px;
-    
+
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
     overflow: hidden; /* Tudo oque estiver fora da borda fica escondido*/
