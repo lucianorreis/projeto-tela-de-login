@@ -65,10 +65,11 @@ div#formulario > p {
 }
 
 form > div.campo{
+    border:2px solid #775b8a;
     background-color: #775b8a;
     display: block;
     height: 47px;
-    width: 100%;
+    width: 99%;
 
     border-radius: 5px;
     margin: 5px 0px;
@@ -78,24 +79,30 @@ div.campo > label {
     display: none;
 }
 
-input#ilogin {
-    position: relative;
-    top: -5px;
-    left: 5px;
-    
-    border: 1px solid purple;
-} input#ilogin:hover {
-    border: 1px solid rgb(212, 4, 212);
+div.campo > i {
+    color: white;
+
+    font-size: 1.5em;
+    padding: 5px;
+    width: 40px;
+
+    transform: translateY(5px) translateX(10px);
 }
 
-input#isenha {
-    position: relative;
-    top: -5px;
-    left: 5px;
+div.campo > input {
+    background-color: #4bb8b4;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 0px;
+    border-radius: 20px 5px 5px 20px;
+    padding: 4px;
 
-    border: 1px solid purple;
-} input#isenha:hover {
-    border: 1px solid rgb(212, 4, 212);
+    transform: translateY(-2px);
+}
+
+div.campo > input:focus-within {
+    background-color: white;
 }
 
 form > input[type=submit] {
@@ -114,6 +121,7 @@ form > input[type=submit] {
 
 form > input[type=submit]:hover {
     background-color: rgba(0, 253, 253, 0.575);
+
     transition: 0.4s;
 }
 
@@ -137,6 +145,7 @@ form > a.botao {
 form > a.botao:hover {
     background-color: rgb(255, 255, 255);
     color: cyan;
+    
     transition: 0.4s;
 } 
 
