@@ -1,7 +1,7 @@
 @charset "UTF-8";
 :root {
     --lilas: #5f2c82;
-    --azul: #1800a3;
+    --azul: rgb(10, 151, 151);
 }
 
 /* Typical Device Breakpoints 
