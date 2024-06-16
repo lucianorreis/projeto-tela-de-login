@@ -22,6 +22,11 @@ main {
     position: relative;
     height: 100vh;
     width: 100vw;
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 section#login { /* Painel de Login */
